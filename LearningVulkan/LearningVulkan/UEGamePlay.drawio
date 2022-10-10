@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T07:48:06.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4HHgnEqyNtG8AVMeHrn_" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T07:52:48.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2FIpzqa4JUUZL4apaO1x" version="20.4.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="3620" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -841,24 +841,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-332" value="APlayerState" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="235" y="1028" width="230" height="138" as="geometry">
+          <mxGeometry x="235" y="1028" width="245" height="156" as="geometry">
             <mxRectangle x="440" y="73" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z39Naz20EpBCcd1Hh88v-333" value="Controller的记忆，保存游戏状态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
-          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        <mxCell id="z39Naz20EpBCcd1Hh88v-333" value="Controller的记忆，保存游戏状态&lt;br&gt;存放当前关卡的数据，跨关卡的放instance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
+          <mxGeometry y="26" width="245" height="34" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-344" value="float Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
-          <mxGeometry y="52" width="230" height="26" as="geometry" />
+          <mxGeometry y="60" width="245" height="26" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-345" value="int32 PlayerId" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
-          <mxGeometry y="78" width="230" height="26" as="geometry" />
+          <mxGeometry y="86" width="245" height="26" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-334" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
-          <mxGeometry y="104" width="230" height="8" as="geometry" />
+          <mxGeometry y="112" width="245" height="8" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-335" value="func" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-332">
-          <mxGeometry y="112" width="230" height="26" as="geometry" />
+          <mxGeometry y="120" width="245" height="26" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-340" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z39Naz20EpBCcd1Hh88v-332" target="z39Naz20EpBCcd1Hh88v-332">
           <mxGeometry relative="1" as="geometry" />
