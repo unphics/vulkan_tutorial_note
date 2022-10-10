@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T08:16:04.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OLl7da7RMarz78XH03YD" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T08:27:11.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3qZshQ0TNulypHQnNK9q" version="20.4.0" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="3620" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -796,6 +796,9 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-380" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z39Naz20EpBCcd1Hh88v-307" target="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-307" value="AController" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="570" y="880" width="295" height="348" as="geometry">
             <mxRectangle x="440" y="73" width="90" height="30" as="alternateBounds" />
@@ -872,7 +875,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-346" value="APlayerController" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="490" y="1320" width="280" height="260" as="geometry">
+          <mxGeometry x="345" y="1310" width="280" height="272" as="geometry">
             <mxRectangle x="440" y="73" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -902,6 +905,41 @@
         </mxCell>
         <mxCell id="z39Naz20EpBCcd1Hh88v-367" value="本类模块：Camera的管理、Input系统、UPlayer关联、HUD显示、Level的切换、Voice音频" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-346">
           <mxGeometry y="200" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-368" value="Player:PlayerController:PlayerState=1:1:1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-346">
+          <mxGeometry y="236" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-369" value="AAIController" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="660" y="1320" width="560" height="250" as="geometry">
+            <mxRectangle x="440" y="73" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-375" value="UBrainComponent&amp;amp;BrainComponent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="26" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-381" value="UAIPerceptionComponent*PerceptionComponent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="50" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-382" value="UBlackboardComponent*Blackboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="74" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-376" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="98" width="560" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-379" value="MoveToActor(AActor*Goal,...)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="106" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-383" value="MoveToLocation(const FVector&amp;amp;Dest,...)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="130" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-384" value="bool RunBehaviorTree(UbehaviorTree*BTAsset)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="154" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-385" value="UseBlackboard(UBlackboardData*BlackboardAsset,UBlackboardComponent*&amp;amp;BlackboardComponent)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="178" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="z39Naz20EpBCcd1Hh88v-386" value="UBlackboardComponent*Blackboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z39Naz20EpBCcd1Hh88v-369">
+          <mxGeometry y="202" width="560" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
