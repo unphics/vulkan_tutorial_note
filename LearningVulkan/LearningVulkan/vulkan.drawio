@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T04:43:53.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cBoxldrl7b3phCsZ908H" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T04:57:31.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UZkCUQmmOPPBd8wU8MpN" version="20.4.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="3020" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -323,6 +323,14 @@
             <mxPoint y="23" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" edge="1" parent="1" source="iDuYbdSP65qZyP4xK3hP-1874" target="XDWvL4o1y6XnVLHqu-6e-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-16" value="&lt;font style=&quot;&quot;&gt;通过描述符访问&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFFFFF;labelBorderColor=default;spacingTop=0;spacing=5;labelBackgroundColor=#2F5B7C;horizontal=1;" vertex="1" connectable="0" parent="XDWvL4o1y6XnVLHqu-6e-15">
+          <mxGeometry x="-0.1306" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iDuYbdSP65qZyP4xK3hP-1874" value="VertexShader顶点着色器" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#2F5B7C;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontStyle=1;spacing=5;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="640" width="120" height="60" as="geometry" />
         </mxCell>
@@ -407,14 +415,26 @@
         <mxCell id="iDuYbdSP65qZyP4xK3hP-1903" value="dynamicState&lt;br&gt;管线状态" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#2F5B7C;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontStyle=1;spacing=5;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="627.5" y="-350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDWvL4o1y6XnVLHqu-6e-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="XDWvL4o1y6XnVLHqu-6e-1" target="XDWvL4o1y6XnVLHqu-6e-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="XDWvL4o1y6XnVLHqu-6e-1" value="DescriptorSet&lt;br&gt;描述符集" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#2F5B7C;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontStyle=1;spacing=5;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="920" y="-130" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDWvL4o1y6XnVLHqu-6e-2" value="Descriptor描述符shader自由访问缓冲区和图像等资源的方式" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#2F5B7C;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontStyle=1;spacing=5;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="-310" width="180" height="80" as="geometry" />
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-8" value="Desciriptor描述符" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#2F5B7C;fontColor=#FFFFFF;fontSize=16;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-180" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-9" value="shader自由访问buffer和image等资源的方式" style="text;strokeColor=none;fillColor=#2F5B7C;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=16;fontColor=#FFFFFF;whiteSpace=wrap;html=1;" vertex="1" parent="XDWvL4o1y6XnVLHqu-6e-8">
+          <mxGeometry y="30" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-13" value="UniformBuffer统一缓冲区" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#2F5B7C;fontColor=#FFFFFF;fontSize=16;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="20" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-14" value="包含变换矩阵" style="text;strokeColor=none;fillColor=#2F5B7C;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=16;fontColor=#FFFFFF;whiteSpace=wrap;html=1;" vertex="1" parent="XDWvL4o1y6XnVLHqu-6e-13">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-19" value="DesciriptorLayout描述符布局" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=2;fillColor=#2F5B7C;fontColor=#FFFFFF;fontSize=16;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="795" y="-290" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDWvL4o1y6XnVLHqu-6e-20" value="管线创建期间指定" style="text;strokeColor=none;fillColor=#2F5B7C;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=16;fontColor=#FFFFFF;whiteSpace=wrap;html=1;" vertex="1" parent="XDWvL4o1y6XnVLHqu-6e-19">
+          <mxGeometry y="30" width="225" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
